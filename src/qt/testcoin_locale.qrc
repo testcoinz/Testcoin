@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/testcoin_bg.qm</file>
+        <file alias="ca">locale/testcoin_ca.qm</file>
+        <file alias="cs">locale/testcoin_cs.qm</file>
+        <file alias="da">locale/testcoin_da.qm</file>
+        <file alias="de">locale/testcoin_de.qm</file>
+        <file alias="en">locale/testcoin_en.qm</file>
+        <file alias="en_US">locale/testcoin_en_US.qm</file>
+        <file alias="es">locale/testcoin_es.qm</file>
+        <file alias="fi">locale/testcoin_fi.qm</file>
+        <file alias="fr_FR">locale/testcoin_fr_FR.qm</file>
+        <file alias="it">locale/testcoin_it.qm</file>
+        <file alias="ja">locale/testcoin_ja.qm</file>
+        <file alias="ko_KR">locale/testcoin_ko_KR.qm</file>
+        <file alias="nl">locale/testcoin_nl.qm</file>
+        <file alias="pl">locale/testcoin_pl.qm</file>
+        <file alias="pt">locale/testcoin_pt.qm</file>
+        <file alias="pt_BR">locale/testcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/testcoin_ro_RO.qm</file>
+        <file alias="ru">locale/testcoin_ru.qm</file>
+        <file alias="sk">locale/testcoin_sk.qm</file>
+        <file alias="sv">locale/testcoin_sv.qm</file>
+        <file alias="uk">locale/testcoin_uk.qm</file>
+        <file alias="zh_CN">locale/testcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/testcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
