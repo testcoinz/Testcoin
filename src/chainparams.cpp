@@ -218,14 +218,16 @@ public:
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0000076746a0cc4529a25d50b049ac508a252f93e118941eb5f1ea28c5898928"));
 
-        vFixedSeeds.clear();
-        vSeeds.clear();
+//        vFixedSeeds.clear();
+//        vSeeds.clear();
 /*
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "testcoin-testnet.seed.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "testcoin-testnet.seed2.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
-        vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "testcoin.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "testcoin.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("coin-server.com", "coin-server.com"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net")); // Single node address
 */
+        vSeeds.push_back(CDNSSeedData("194.182.75.24", "194.182.71.174"));           // Single node address
+
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet testcoin addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet testcoin script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
